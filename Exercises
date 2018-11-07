@@ -1,0 +1,21 @@
+#1
+print(list(range(10, 0, -2)))
+
+#2
+
+#3
+#a --> [1,2,3]
+#b --> [1,2,3]
+#after:
+#a --> [1,2,3]
+#b --> [5,2,3]
+#b[0] --> 5
+
+#4
+this = ["I", "am", "not", "a", "crook"]
+that = ["I", "am", "not", "a", "crook"]
+print("Test 1: {0}".format(this is that))
+that = this
+print("Test 2: {0}".format(this is that))
+#The code checks to see if this = that. If this = that then the code will print True. Else it will print Flase
+
