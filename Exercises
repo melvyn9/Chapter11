@@ -20,3 +20,27 @@ print("Test 2: {0}".format(this is that))
 #The code checks to see if this = that. If this = that then the code will print True. Else it will print Flase. 
 They are defined as two seperate lists for the first test. For the second test, they are both the same which will result in a true.
 
+#5
+a = int(input("Please input value of x: "))
+b = int(input(("Please input value of y: ")))
+
+def add_vectors(u,v):
+    a = int(input("Please input x value of the vector: "))
+    b = int(input(("Please input y value of the vector: ")))
+    u = u + a
+    v = v + b
+    print(u,v)
+
+add_vectors(a,b)
+
+#6
+a = int(input("Please input value of x: "))
+b = int(input(("Please input value of y: ")))
+
+def scalar_vectors(u,v):
+    s = int(input("Pleae enter multiplier"))
+    u = u*s
+    v = v*s
+    print(u,v)
+
+scalar_vectors(a,b)
