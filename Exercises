@@ -44,3 +44,16 @@ def scalar_vectors(u,v):
     print(u,v)
 
 scalar_vectors(a,b)
+
+#7
+a = int(input("Please input 1st value of x: "))
+b = int(input(("Please input 1st value of y: ")))
+c = int(input("Please input 2nd value of x: "))
+d = int(input(("Please input 2nd value of y: ")))
+def dot_product(a,b):
+    a = a*c
+    b = b*d
+    print(a,b)
+dot_product(a,b)
+
+#8
