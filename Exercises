@@ -57,3 +57,28 @@ def dot_product(a,b):
 dot_product(a,b)
 
 #8
+#The split makes it so that each word is seperated in a list
+
+#9
+s = input("Please enter string: ")
+old = input("Please input word that needs to be changed: ")
+new = input("Please input word to replace the old word: ")
+f = []
+print(old,new)
+def replace(s, old, new):
+    s.split()
+    for i in s.split():
+        if i == old:
+            f.append(new)
+        else:
+            f.append(i)
+    print(' '.join(f))
+replace(s,old,new)
+
+#10
+#The code swaps the x and y value for x and y but not for a and b. After swap, the values of a and b should be: a = [2, 3, 4] b = ['This', 'is', 'fun']
+
+
+
+
+
